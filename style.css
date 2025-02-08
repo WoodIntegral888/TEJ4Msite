@@ -2,27 +2,30 @@
 6/02/2025
 This is the css page responsible for the styling of my website */
 
-/* Imports */
+/* Imports ----------------------------------------------------------------------------------------------------*/
 @import url('https://fonts.cdnfonts.com/css/sf-pixelate');
 
 
-/* Stylization for tags that are applicable across pages */
-body{
+/* Stylization for tags that are applicable across pages ----------------------------------------------------------------------------------------------------*/
+/* Styling body */
+body {
     font-family: 'SF Pixelate', sans-serif;
     font-size: 2.5vh;
     font-weight: bold;
     color: #fba0a0;
 }
 
-a{
+/* Styling links */
+a {
     text-decoration: none;
     color: #fba0a0;
 }
 
-button{
+/* styling basic for all buttons */
+button {
     height: auto;
     margin-inline: auto;
-    display:block;
+    display: block;
     font-family: 'SF Pixelate', sans-serif;
     text-transform: uppercase;
     border: 0.2vw solid;
@@ -31,26 +34,29 @@ button{
     transition: 0.4s;
 }
 
-th{
-    width:10vw;
+/* table headers style (for wanted poster) */
+th {
+    width: 10vw;
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
     font-size: larger;
 }
 
-/* Stylization code for starting page specific Id's */
-#start_pg{
+/* Stylization code for starting page specific Id's ----------------------------------------------------------------------------------------------------*/
+/* Background for starter (balcony) page */
+#start_pg {
     background-image: url(images/startScreen.PNG);
     background-size: 100%;
 }
 
-#startBTN{
+/* Button to nav map from the starter page */
+#startBTN {
     font-size: 4vh;
     color: white;
     height: auto;
     margin-inline: auto;
     margin-top: 3vh;
-    display:block;
+    display: block;
     font-family: 'SF Pixelate', sans-serif;
     text-transform: uppercase;
     background-color: black;
@@ -60,27 +66,30 @@ th{
     transition: 0.4s;
 }
 
-#startBTN:hover{
-    background-color:#a61919;
+#startBTN:hover {
+    background-color: #a61919;
 }
 
 #startBTN:active {
-  box-shadow: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 0px 0px;
 }
 
-/* Stylization code for course info page specific Id's/etc... */
-#tej4m_pg{
+/* Stylization code for course info page specific Id's/etc... ----------------------------------------------------------------------------------------------------*/
+/* background for course description page (includes the image for the course) */
+#tej4m_pg {
     background-image: url(images/aboutCourse.PNG);
     background-size: 100%;
 }
 
-#courseInfo{
+/* course description text stylization  */
+#courseInfo {
     margin-left: 43vw;
     margin-top: 30vh;
     width: 36vw;
 }
 
-#backTEJ4M{
+/* back button from course descrip page to starter page */
+#backTEJ4M {
     margin-top: 20vh;
     font-size: 4vh;
     color: #500a1f;
@@ -88,7 +97,7 @@ th{
     background-color: #a61919;
 }
 
-#backTEJ4M:hover{
+#backTEJ4M:hover {
     color: #fba0a0;
 }
 
@@ -96,24 +105,26 @@ th{
     box-shadow: 0px 0px 0px 0px;
 }
 
-/* Stylization code for about me page specific Id's/etc... */
-#aboutMe_pg{
+/* Stylization code for about me page specific Id's/etc... ----------------------------------------------------------------------------------------------------*/
+/* Setting background for about me page (includes avatar) */
+#aboutMe_pg {
     background-image: url(images/wantedPoster.jpg);
     background-size: 100%;
 }
 
-#backMe{
+/* back button from about me page to starter page */
+#backMe {
     margin-top: 36vh;
     margin-left: 17vw;
     font-size: 10vh;
-    padding-inline:12vh;
+    padding-inline: 12vh;
     overflow-wrap: break-word;
     color: #500a1f;
     width: 20vw;
     background-color: #a61919;
 }
 
-#backMe:hover{
+#backMe:hover {
     color: #fba0a0;
 }
 
@@ -121,28 +132,29 @@ th{
     box-shadow: 0px 0px 0px 0px;
 }
 
-/* Stylization code for about me page specific Id's/etc... */
-#map_pg{
+/* Stylization code for about me page specific Id's/etc... ----------------------------------------------------------------------------------------------------*/
+/* setting background for city map/nav page  */
+#map_pg {
     background-image: url(images/cityMap.PNG);
     background-size: 100%;
 }
 
-.pin{
+/* styling the pin icons */
+.pin {
     height: 14vh;
     transition: 0.3s;
 }
 
-.pin:hover{
-    height:15vh;
+.pin:hover {
+    height: 15vh;
 }
 
-span{
+/* styling for the span/text/label for each pin marker */
+span {
     margin-top: -2vh;
     width: 13vw;
     display: block;
     text-align: center;
     font-size: smaller;
-    background: rgba(80,10,31, 0.7);
+    background: rgba(80, 10, 31, 0.7);
 }
-
-

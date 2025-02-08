@@ -1,0 +1,361 @@
+[INDEX PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/02/2025
+My TEJ4M Starter Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Start - Vishwa's TEJ4M</title>
+</head>
+
+<body id="start_pg">
+    <!-- All links to pages that should be on home page (course descrip., 
+     personal descrip., nav page) -->
+    <a href="navMap.html"><button id="startBTN" style="margin-top: 44vh;">Start</button></a>
+    <a href="aboutCourse.html"><button id="startBTN">About TEJ4M</button></a>
+    <a href="aboutMe.html"><button id="startBTN">About Me</button></a>
+</body>
+
+</html>
+
+[ABOUT COURSE PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/02/2025
+My TEJ4M About Course Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>About TEJ4M - Vishwa's TEJ4M</title>
+</head>
+
+<body id="tej4m_pg">
+    <!-- Paragraph with course description (from MyBlueprint website) -->
+    <p id="courseInfo">
+        This course extends students’ understanding of computer systems and
+        computer interfacing with external devices. Students will assemble
+        computer systems by installing and configuring appropriate hardware
+        and software, and will learn more about fundamental concepts of electronics,
+        robotics, programming, and networks. Students will examine related
+        environmental and societal issues, and will explore postsecondary pathways
+        leading to careers in computer technology.
+    </p>
+
+    <!-- Link back to Starter (balcony) page -->
+    <a href="index.html"><button id="backTEJ4M">Back</button></a>
+
+</body>
+
+</html>
+
+[ABOUT ME PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/02/2025
+My TEJ4M Starter Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>About Me - Vishwa's TEJ4M</title>
+</head>
+
+<body id="aboutMe_pg">
+    <!-- div to ensure everything is inline -->
+    <div style="display: inline-flex;">
+        <!-- bottom of Wanted poster which acts as personal introduction -->
+        <table style="margin-left: 10vw; margin-top: 73vh; width: 45vw; font-size: 2vh;">
+            <tr>
+                <th>Wanted For: </th>
+                <td>Playing loud music at night [noise pollution]</td>
+            </tr>
+            <tr>
+                <th>Description: </th>
+                <td> 17 year old highschooler going by the name Vishwa Dave,
+                    black hair, last seen with all black louge attire</td>
+            </tr>
+            <tr>
+                <th>Warning: </th>
+                <td>TEJ4M City must be alert for this vigilante! She may undo your
+                    device wirings when you are not looking; stay Alert!</td>
+            </tr>
+        </table>
+
+        <!-- button to return back to starter (balcony) page -->
+        <a href="index.html"><button id="backMe">Back</button></a>
+    </div>
+
+</body>
+
+</html>
+
+[NAVIGATION/CITY MAP PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/02/2025
+My TEJ4M Navigation Page (aka city map/nav map)-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map - Vishwa's TEJ4M</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body id="map_pg">
+    <!-- unit 0 pin/link on map -->
+    <div style="margin-top: 23vh;">
+        <a href="units/unit0/unit0.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 0 - Into to Coding</span>
+        </a>
+    </div>
+
+    <!-- unit 1 pin/link on map -->
+    <div style="margin-top: 0vh; margin-left: 5vw;">
+        <a href="units/unit1/unit1.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 1 - Computer Hardware & Software</span>
+        </a>
+    </div>
+
+    <!-- unit 2 pin/link on map -->
+    <div style="margin-top: -32vh; margin-left: 15vw;">
+        <a href="units/unit2/unit2.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 2 - Networking</span>
+        </a>
+    </div>
+
+    <!-- unit 3 pin/link on map -->
+    <div style="margin-top: 30vh; margin-left: 5vw;">
+        <a href="units/unit3/unit3.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 3 - Programming</span>
+        </a>
+    </div>
+
+    <!-- unit 5 pin/link on map -->
+    <div style="margin-top: -40vh; margin-left: 35vw;">
+        <a href="units/unit5/unit5.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 5 - Digital Electronics</span>
+        </a>
+    </div>
+
+    <!-- unit 6 pin/link on map -->
+    <div style="margin-top: -45vh; margin-left: 45vw;">
+        <a href="units/unit6/unit6.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 6 - Robotics</span>
+        </a>
+    </div>
+
+    <!-- summative page pin/link on map -->
+    <div style="margin-top: -5vh; margin-left: 65vw;">
+        <a href="/summative/summative.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Summative</span>
+        </a>
+    </div>
+
+    <!-- assignments page pin/link on map -->
+    <div style="margin-top: -35vh; margin-left: 75vw;">
+        <a href="/assignments/assignments.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Assignments</span>
+        </a>
+    </div>
+
+    <!-- original starter page pin/link on map -->
+    <div style="margin-top: 35vh; margin-left: 72vw;">
+        <a href="/index.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Starter Balcony</span>
+        </a>
+    </div>
+
+</body>
+
+</html>
+
+[CSS PAGE CODE] --------------------------------------------------------------------------------------------------
+
+/* Vishwa Dave
+6/02/2025
+This is the css page responsible for the styling of my website */
+
+/* Imports -----------------------------------*/
+@import url('https://fonts.cdnfonts.com/css/sf-pixelate');
+
+
+/* Stylization for tags that are applicable across pages -----------------*/
+/* Styling body */
+body {
+    font-family: 'SF Pixelate', sans-serif;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: #fba0a0;
+}
+
+/* Styling links */
+a {
+    text-decoration: none;
+    color: #fba0a0;
+}
+
+/* styling basic for all buttons */
+button {
+    height: auto;
+    margin-inline: auto;
+    display: block;
+    font-family: 'SF Pixelate', sans-serif;
+    text-transform: uppercase;
+    border: 0.2vw solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    transition: 0.4s;
+}
+
+/* table headers style (for wanted poster) */
+th {
+    width: 10vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    font-size: larger;
+}
+
+/* Stylization code for starting page specific Id's -----------------------------*/
+/* Background for starter (balcony) page */
+#start_pg {
+    background-image: url(images/startScreen.PNG);
+    background-size: 100%;
+}
+
+/* Button to nav map from the starter page */
+#startBTN {
+    font-size: 4vh;
+    color: white;
+    height: auto;
+    margin-inline: auto;
+    margin-top: 3vh;
+    display: block;
+    font-family: 'SF Pixelate', sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    border: 0.2vw solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    transition: 0.4s;
+}
+
+#startBTN:hover {
+    background-color: #a61919;
+}
+
+#startBTN:active {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+/* Stylization code for course info page specific Id's/etc... -----------------------------*/
+/* background for course description page (includes the image for the course) */
+#tej4m_pg {
+    background-image: url(images/aboutCourse.PNG);
+    background-size: 100%;
+}
+
+/* course description text stylization  */
+#courseInfo {
+    margin-left: 43vw;
+    margin-top: 30vh;
+    width: 36vw;
+}
+
+/* back button from course descrip page to starter page */
+#backTEJ4M {
+    margin-top: 20vh;
+    font-size: 4vh;
+    color: #500a1f;
+    width: 40vw;
+    background-color: #a61919;
+}
+
+#backTEJ4M:hover {
+    color: #fba0a0;
+}
+
+#backTEJ4M:active {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+/* Stylization code for about me page specific Id's/etc... ---------------------------*/
+/* Setting background for about me page (includes avatar) */
+#aboutMe_pg {
+    background-image: url(images/wantedPoster.jpg);
+    background-size: 100%;
+}
+
+/* back button from about me page to starter page */
+#backMe {
+    margin-top: 36vh;
+    margin-left: 17vw;
+    font-size: 10vh;
+    padding-inline: 12vh;
+    overflow-wrap: break-word;
+    color: #500a1f;
+    width: 20vw;
+    background-color: #a61919;
+}
+
+#backMe:hover {
+    color: #fba0a0;
+}
+
+#backMe:active {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+/* Stylization code for about me page specific Id's/etc... -------------------------------------*/
+/* setting background for city map/nav page  */
+#map_pg {
+    background-image: url(images/cityMap.PNG);
+    background-size: 100%;
+}
+
+/* styling the pin icons */
+.pin {
+    height: 14vh;
+    transition: 0.3s;
+}
+
+.pin:hover {
+    height: 15vh;
+}
+
+/* styling for the span/text/label for each pin marker */
+span {
+    margin-top: -2vh;
+    width: 13vw;
+    display: block;
+    text-align: center;
+    font-size: smaller;
+    background: rgba(80, 10, 31, 0.7);
+}
