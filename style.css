@@ -5,12 +5,117 @@ This is the css page responsible for the styling of my website */
 /* Imports */
 @import url('https://fonts.cdnfonts.com/css/sf-pixelate');
 
+
+/* Stylization for tags that are applicable across pages */
 body{
     font-family: 'SF Pixelate', sans-serif;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: #fba0a0;
 }
 
+a{
+    text-decoration: none;
+}
 
+button{
+    height: auto;
+    margin-inline: auto;
+    display:block;
+    font-family: 'SF Pixelate', sans-serif;
+    text-transform: uppercase;
+    border: 0.2vw solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    transition: 0.4s;
+}
 
+th{
+    width:10vw;
+    padding-top: 2.5vh;
+    padding-bottom: 2.5vh;
+    font-size: larger;
+}
+
+/* Stylization code for starting page specific Id's */
 #start_pg{
-    background-image: ;
+    background-image: url(images/startScreen.PNG);
+    background-size: 100%;
+}
+
+#startBTN{
+    font-size: 4vh;
+    color: white;
+    height: auto;
+    margin-inline: auto;
+    margin-top: 3vh;
+    display:block;
+    font-family: 'SF Pixelate', sans-serif;
+    text-transform: uppercase;
+    background-color: black;
+    border: 0.2vw solid;
+    padding: 0.25em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    transition: 0.4s;
+}
+
+#startBTN:hover{
+    background-color:#a61919;
+}
+
+#startBTN:active {
+  box-shadow: 0px 0px 0px 0px;
+}
+
+/* Stylization code for course info page specific Id's/etc... */
+#tej4m_pg{
+    background-image: url(images/aboutCourse.PNG);
+    background-size: 100%;
+}
+
+#courseInfo{
+    margin-left: 43vw;
+    margin-top: 30vh;
+    width: 36vw;
+}
+
+#backTEJ4M{
+    margin-top: 20vh;
+    font-size: 4vh;
+    color: #500a1f;
+    width: 40vw;
+    background-color: #a61919;
+}
+
+#backTEJ4M:hover{
+    color: #fba0a0;
+}
+
+#backTEJ4M:active {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+/* Stylization code for about me page specific Id's/etc... */
+#aboutMe_pg{
+    background-image: url(images/wantedPoster.jpg);
+    background-size: 100%;
+}
+
+#backMe{
+    margin-top: 36vh;
+    margin-left: 17vw;
+    font-size: 10vh;
+    padding-inline:12vh;
+    overflow-wrap: break-word;
+    color: #500a1f;
+    width: 20vw;
+    background-color: #a61919;
+}
+
+#backMe:hover{
+    color: #fba0a0;
+}
+
+#backMe:active {
+    box-shadow: 0px 0px 0px 0px;
 }
