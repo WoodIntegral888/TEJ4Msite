@@ -4,6 +4,7 @@ This is the css page responsible for the styling of my website */
 
 /* Imports ----------------------------------------------------------------------------------------------------*/
 @import url('https://fonts.cdnfonts.com/css/sf-pixelate');
+@import url('https://fonts.cdnfonts.com/css/nokia-cellphone-fc');
 
 
 /* Stylization for tags that are applicable across pages ----------------------------------------------------------------------------------------------------*/
@@ -41,6 +42,53 @@ th {
     padding-top: 2.5vh;
     padding-bottom: 2.5vh;
     font-size: larger;
+}
+
+/* Styling for page titles */
+h1 {
+    text-align: center;
+    font-size: 7vh;
+    font-family: 'Nokia Cellphone FC', sans-serif;
+    filter: drop-shadow(0 0 0.75rem crimson);                                        
+}
+
+/* Styling for subheaders */
+h2 {
+    text-align: center;
+    font-family: 'Nokia Cellphone FC', sans-serif;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+/* Map icon button styling */
+.navMapIcon{
+    position:absolute;
+    margin-top: -1vh;
+    height: 4.5vh;
+    margin-left: 0vw;
+    transition: 0.4s;
+}
+
+.navMapBTN{
+    font-size: 3vh;
+    color: #fba0a0;
+    margin-top: 5vh;
+    display: block;
+    font-family: 'SF Pixelate', sans-serif;
+    text-transform: uppercase;
+    background-color: #330a17;
+    border: 0.2vw solid;
+    padding: 0.5em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    transition: 0.4s;
+}
+
+.navMapBTN:hover {
+    background-color: #a61919;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.navMapBTN:active {
+    box-shadow: 0px 0px 0px 0px;
 }
 
 /* Stylization code for starting page specific Id's ----------------------------------------------------------------------------------------------------*/
@@ -143,6 +191,7 @@ th {
 /* styling the pin icons */
 .pin {
     height: 14vh;
+    position: fixed;
     transition: 0.3s;
 }
 
@@ -153,9 +202,40 @@ th {
 /* styling for the span/text/label for each pin marker */
 span {
     margin-top: -2vh;
-    width: 13vw;
+    width: 17vw;
     display: block;
     text-align: center;
     font-size: smaller;
     background: rgba(80, 10, 31, 0.7);
 }
+
+/* Stylization code for unit pages specific Id's/etc... ----------------------------------------------------------------------------------------------------*/
+/* styling unit description pics */
+.unitPic{
+    height: 30vh;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #330a17;
+    box-shadow: 4px 5px 5px black;
+    display: inline-block; 
+}
+
+/* styling unit description text */
+.unitDescrip{
+    width: 40vw;
+    display: inline-block; 
+    margin-left: 5vw;
+}
+
+/* Styling for link to each lesson work/homework for each unit */
+.workLink{
+    margin-left: 19vw;
+    transition: 0.4s;
+}
+
+.workLink:hover{
+    filter: drop-shadow(0 0 0.75rem crimson);   
+    color: white; 
+}
+
+
