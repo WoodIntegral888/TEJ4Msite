@@ -20,15 +20,16 @@ My TEJ4M Starter Page -->
     <a href="navMap.html"><button id="startBTN" style="margin-top: 44vh;">Start</button></a>
     <a href="aboutCourse.html"><button id="startBTN">About TEJ4M</button></a>
     <a href="aboutMe.html"><button id="startBTN">About Me</button></a>
+    <a href="code.txt"><button id="startBTN">Raw Code</button></a>
 </body>
 
 </html>
 
-[ABOUT COURSE PAGE CODE] --------------------------------------------------------------------------------------------------
+[NAVMAP PAGE CODE] --------------------------------------------------------------------------------------------------
 
 <!-- Vishwa Dave
 6/02/2025
-My TEJ4M About Course Page -->
+My TEJ4M Navigation Page (aka city map/nav map)-->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -36,24 +37,66 @@ My TEJ4M About Course Page -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map - Vishwa's TEJ4M</title>
     <link href="style.css" rel="stylesheet">
-    <title>About TEJ4M - Vishwa's TEJ4M</title>
 </head>
 
-<body id="tej4m_pg">
-    <!-- Paragraph with course description (from MyBlueprint website) -->
-    <p id="courseInfo">
-        This course extends students’ understanding of computer systems and
-        computer interfacing with external devices. Students will assemble
-        computer systems by installing and configuring appropriate hardware
-        and software, and will learn more about fundamental concepts of electronics,
-        robotics, programming, and networks. Students will examine related
-        environmental and societal issues, and will explore postsecondary pathways
-        leading to careers in computer technology.
-    </p>
+<body id="map_pg">
+    <!-- unit 1 pin/link on map -->
+    <div style="margin-top: 33vh; margin-left: 5vh;">
+        <a href="units/unit1/unit1.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 1 - Hardware</span>
+        </a>
+    </div>
 
-    <!-- Link back to Starter (balcony) page -->
-    <a href="index.html"><button id="backTEJ4M">Back</button></a>
+    <!-- unit 2 pin/link on map -->
+    <div style="margin-top: 14vh; margin-left: 5vw;">
+        <a href="units/unit2/unit2.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 2 - Networking</span>
+        </a>
+    </div>
+
+    <!-- unit 3 pin/link on map -->
+    <div style="margin-top: -16vh; margin-left: 38vw;">
+        <a href="units/unit3/unit3.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 3 - Programming</span>
+        </a>
+    </div>
+
+    <!-- unit 4 pin/link on map -->
+    <div style="margin-top: 34vh; margin-left: 20vw;">
+        <a href="units/unit4/unit4.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Unit 4 - Microcontroller</span>
+        </a>
+    </div>
+
+    <!-- summative page pin/link on map -->
+    <div style="margin-top: -18vh; margin-left: 60vw;">
+        <a href="/summative/summative.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Summative</span>
+        </a>
+    </div>
+
+    <!-- assignments page pin/link on map -->
+    <div style="margin-top: -45vh; margin-left: 71vw;">
+        <a href="/assignments/assignments.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Assignments</span>
+        </a>
+    </div>
+
+    <!-- original starter page pin/link on map -->
+    <div style="margin-top: 63vh; margin-left: 75vw;">
+        <a href="/index.html">
+            <img class="pin" src="images/locationPin.PNG">
+            <span>Starter Balcony</span>
+        </a>
+    </div>
 
 </body>
 
@@ -104,11 +147,11 @@ My TEJ4M Starter Page -->
 
 </html>
 
-[NAVIGATION/CITY MAP PAGE CODE] --------------------------------------------------------------------------------------------------
+[ABOUT COURSE PAGE CODE] --------------------------------------------------------------------------------------------------
 
 <!-- Vishwa Dave
 6/02/2025
-My TEJ4M Navigation Page (aka city map/nav map)-->
+My TEJ4M About Course Page -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -116,104 +159,443 @@ My TEJ4M Navigation Page (aka city map/nav map)-->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Map - Vishwa's TEJ4M</title>
     <link href="style.css" rel="stylesheet">
+    <title>About TEJ4M - Vishwa's TEJ4M</title>
 </head>
 
-<body id="map_pg">
-    <!-- unit 0 pin/link on map -->
-    <div style="margin-top: 23vh;">
-        <a href="units/unit0/unit0.html">
-            <img class="pin" src="images/locationPin.PNG">
-            <span>Unit 0 - Into to Coding</span>
-        </a>
-    </div>
+<body id="tej4m_pg">
+    <!-- Paragraph with course description (from MyBlueprint website) -->
+    <p id="courseInfo">
+        This course extends students’ understanding of computer systems and
+        computer interfacing with external devices. Students will assemble
+        computer systems by installing and configuring appropriate hardware
+        and software, and will learn more about fundamental concepts of electronics,
+        robotics, programming, and networks. Students will examine related
+        environmental and societal issues, and will explore postsecondary pathways
+        leading to careers in computer technology.
+    </p>
 
-    <!-- unit 1 pin/link on map -->
-    <div style="margin-top: 0vh; margin-left: 5vw;">
-        <a href="units/unit1/unit1.html">
-            <img class="pin" src="images/locationPin.PNG">
-            <span>Unit 1 - Computer Hardware & Software</span>
-        </a>
-    </div>
-
-    <!-- unit 2 pin/link on map -->
-    <div style="margin-top: -32vh; margin-left: 15vw;">
-        <a href="units/unit2/unit2.html">
-            <img class="pin" src="images/locationPin.PNG">
-            <span>Unit 2 - Networking</span>
-        </a>
-    </div>
-
-    <!-- unit 3 pin/link on map -->
-    <div style="margin-top: 30vh; margin-left: 5vw;">
-        <a href="units/unit3/unit3.html">
-            <img class="pin" src="images/locationPin.PNG">
-            <span>Unit 3 - Programming</span>
-        </a>
-    </div>
-
-    <!-- unit 5 pin/link on map -->
-    <div style="margin-top: -40vh; margin-left: 35vw;">
-        <a href="units/unit5/unit5.html">
-            <img class="pin" src="images/locationPin.PNG">
-            <span>Unit 5 - Digital Electronics</span>
-        </a>
-    </div>
-
-    <!-- unit 6 pin/link on map -->
-    <div style="margin-top: -45vh; margin-left: 45vw;">
-        <a href="units/unit6/unit6.html">
-            <img class="pin" src="images/locationPin.PNG">
-            <span>Unit 6 - Robotics</span>
-        </a>
-    </div>
-
-    <!-- summative page pin/link on map -->
-    <div style="margin-top: -5vh; margin-left: 65vw;">
-        <a href="/summative/summative.html">
-            <img class="pin" src="images/locationPin.PNG">
-            <span>Summative</span>
-        </a>
-    </div>
-
-    <!-- assignments page pin/link on map -->
-    <div style="margin-top: -35vh; margin-left: 75vw;">
-        <a href="/assignments/assignments.html">
-            <img class="pin" src="images/locationPin.PNG">
-            <span>Assignments</span>
-        </a>
-    </div>
-
-    <!-- original starter page pin/link on map -->
-    <div style="margin-top: 35vh; margin-left: 72vw;">
-        <a href="/index.html">
-            <img class="pin" src="images/locationPin.PNG">
-            <span>Starter Balcony</span>
-        </a>
-    </div>
+    <!-- Link back to Starter (balcony) page -->
+    <a href="index.html"><button id="backTEJ4M">Back</button></a>
 
 </body>
 
 </html>
 
-[CSS PAGE CODE] --------------------------------------------------------------------------------------------------
+[UNIT 1 PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/2/2025
+My TEJ4M Unit 1 Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Meta tags for character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../style.css" rel="stylesheet">
+    <!-- Browser title of the page -->
+    <title>Unit 1 - Vishwa's TEJ4M</title>
+</head>
+<body>
+    <!-- Link back to navigation map (to allow for switching between pages easily) -->
+    <a href="../../navMap.html"><button class="navMapBTN">
+        <img class="navMapIcon" src="../../images/mapIcon.png">
+        &nbsp;&nbsp;&nbsp;Back to Map
+    </button></a>
+
+    <!-- Title of page -->
+    <h1>Unit 1 - Hardware</h1>
+    <!-- Unit 1 picture and description -->
+    <div style="width: 80vw; margin-left: 10vw;">
+        <img class="unitPic" src="u1pic.png">
+        <p class="unitDescrip">
+            In unit 1, we will learn about the hardware of a computer. We will learn 
+            what the different components of a pc are called and what their function 
+            is. We will be assigned (individually or in groups) a specific computer 
+            in class that we will be working on for the rest of the course. We will 
+            learn to identify the pc components and a variety of I/O connection 
+            types such as USB, VGA, HDMI, etc. We will also be reminded of basic 
+            safety procedures and protocol when working around electricity. We will 
+            learn different number systems (such as octal, binary, etc...) and how 
+            to convert between them.
+        </p>
+    </div>
+
+    <!-- Unit work section -->
+    <h2>Unit Work</h2>
+    <!-- Links to classwork handouts -->
+    <h4><a class="workLink" href="u1Work/u1l1.pdf" target="_blank">Lesson 1 - Binary and Decimal Number Systems Worksheet</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l2.pdf" target="_blank">Lesson 2 - Adding/Subtracting Hexadecimal Numbers Worksheet</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l3_1.pdf" target="_blank">Lesson 3 - Octal to Decimal Worksheet</a></h4>
+    <h4><a class="workLink" href="u1Work/u1l3_2.pdf" target="_blank">Lesson 3.2 - Negative Binary Numbers Worksheet</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l4.pdf" target="_blank">Lesson 4 - Number Systems Review</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l5.pdf" target="_blank">Lesson 5 - Motherboards</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l6.pdf" target="_blank">Lesson 6 - Computer Memory</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l7.pdf" target="_blank">Lesson 7 - BIOS, CMOS, and UEFI</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l8.pdf" target="_blank">Lesson 8 - File Formats, Volumes, and Partitions</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l9.pdf" target="_blank">Lesson 9 - Advanced Busses</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l10.pdf" target="_blank">Lesson 10 - Power Supplies</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l11.pdf" target="_blank">Lesson 11 - Secondary Memory</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l12.pdf" target="_blank">Lesson 12 - Intro to Linux</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l12.pdf" target="_blank">Lesson 12 - Linux Commands pt2</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l13.pdf" target="_blank">Lesson 13 - Bash Scripting</a></h4>
+
+    <h4><a class="workLink" href="u1Work/u1l14.pdf" target="_blank">Lesson 14 - Bash Scripting pt2</a></h4>
+</body>
+</html>
+
+[UNIT 2 PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/2/2025
+My TEJ4M Unit 2 Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Meta tags for character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../style.css" rel="stylesheet">
+    <!-- Browser title of the page -->
+    <title>Unit 2 - Vishwa's TEJ4M</title>
+</head>
+<body>
+    <!-- Link back to navigation map (to allow for switching between pages easily) -->
+    <a href="../../navMap.html"><button class="navMapBTN">
+        <img class="navMapIcon" src="../../images/mapIcon.png">
+        &nbsp;&nbsp;&nbsp;Back to Map
+    </button></a>
+
+    <!-- Title of page -->
+    <h1>Unit 2 - Networking</h1>
+    <!-- Unit 2 picture and description -->
+    <div style="width: 80vw; margin-left: 10vw;">
+        <img class="unitPic" src="u2pic.png">
+        <p class="unitDescrip">
+            In unit 2, we will learn about networks and how they work. We will learn 
+            about the different network topologies including star, ring, bus, mesh, 
+            and point-to-point topology. We will learn about how routers, switches, 
+            hubs, and bridges work in regards to how they create and manage local area 
+            networks. We will physically create Ethernet cables by crimping a cable and 
+            adding an Ethernet port to each side. Finally, we will learn about what IP 
+            addresses are and how they work in relation to the router's IP address, the 
+            network IP address, and the subnet mask.
+        </p>
+    </div>
+
+    <!-- Unit work section -->
+    <h2>Unit Work</h2>
+    <!-- Links to classwork handouts -->
+    <h4><a class="workLink" href="u2Work/u2l1.pdf" target="_blank">Lesson 1 - Networking Using Cisco Packet Tracer Worksheet</a></h4>
+
+    <h4><a class="workLink" href="u2Work/u2l2_1.pdf" target="_blank">Lesson 2 - Networking Note</a></h4>
+    <h4><a class="workLink" href="u2Work/u2l2_2.pdf" target="_blank">Lesson 2.2 - IP Addresses Worksheet</a></h4>
+
+    <h4><a class="workLink" href="u2Work/u2l3_1.pdf" target="_blank">Lesson 3 - Network Cables</a></h4>
+    <h4><a class="workLink" href="u2Work/u2l#_2.pdf" target="_blank">Lesson 3.2 - Ethernet Broadband Router</a></h4>
+
+    <h4><a class="workLink" href="u2Work/u2l2.pdf" target="_blank">Lesson 4 - Hubs, Switches, Modems and Routers</a></h4>
+
+    <h4><a class="workLink" href="u2Work/u2l2.pdf" target="_blank">Lesson 5 - MAC Addresses</a></h4>
+
+    <h4><a class="workLink" href="u2Work/u2l2.pdf" target="_blank">Lesson 6 - DHC and DNS</a></h4>
+</body>
+</html>
+
+[UNIT 3 PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/2/2025
+My TEJ4M Unit 3 Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Meta tags for character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../style.css" rel="stylesheet">
+    <!-- Browser title of the page -->
+    <title>Unit 3 - Vishwa's TEJ4M</title>
+</head>
+<body>
+    <!-- Link back to navigation map (to allow for switching between pages easily) -->
+    <a href="../../navMap.html"><button class="navMapBTN">
+        <img class="navMapIcon" src="../../images/mapIcon.png">
+        &nbsp;&nbsp;&nbsp;Back to Map
+    </button></a>
+
+    <!-- Title of page -->
+    <h1>Unit 3 - Programming</h1>
+    <!-- Unit 2 picture and description -->
+    <div style="width: 80vw; margin-left: 10vw;">
+        <img class="unitPic" src="u3pic.png">
+        <p class="unitDescrip">
+            In unit 3, we will be introduced to the C++ programming language to be able 
+            to work with the microcontrollers and utilize the Arduino IDE. We will learn 
+            about the fundamentals such as how to name variables, what variables are, 
+            how complex decisions can be made, how user inputs and computer outputs work, 
+            and how to create loops. We will be given various programming challenges to 
+            complete where we will use our knowledge in C++ to create programs described 
+            to us in the challenge.
+        </p>
+    </div>
+
+    <!-- Unit work section -->
+    <h2>Unit Work</h2>
+    <!-- Links to classwork handouts -->
+    <h4><a class="workLink" href="u3Work/u3l1.pdf" target="_blank">Lesson 1 - Inputs</a></h4>
+
+    <h4><a class="workLink" href="u3Work/u3l2.pdf" target="_blank">Lesson 2 - Outputs</a></h4>
+
+    <h4><a class="workLink" href="u3Work/u3l3.pdf" target="_blank">Lesson 3 - Decisions</a></h4>
+
+    <h4><a class="workLink" href="u3Work/u3l4.pdf" target="_blank">Lesson 4 - Loops</a></h4>
+
+    <h4><a class="workLink" href="u3Work/u3l5.pdf" target="_blank">Lesson 5 - Misc. Functions</a></h4>
+
+    <h4><a class="workLink" href="u3Work/u3l6.pdf" target="_blank">Lesson 6 - Arrays</a></h4>
+
+    <h4><a class="workLink" href="u3Work/u3l7.pdf" target="_blank">Lesson 7 - Functions</a></h4>
+</body>
+</html>
+
+[UNIT 4 PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/2/2025
+My TEJ4M Unit 4 Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <!-- Meta tags for character encoding and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../style.css" rel="stylesheet">
+    <!-- Browser title of the page -->
+    <title>Unit 4 - Vishwa's TEJ4M</title>
+</head>
+<body>
+    <!-- Link back to navigation map (to allow for switching between pages easily) -->
+    <a href="../../navMap.html"><button class="navMapBTN">
+        <img class="navMapIcon" src="../../images/mapIcon.png">
+        &nbsp;&nbsp;&nbsp;Back to Map
+    </button></a>
+
+    <!-- Title of page -->
+    <h1>Unit 4 - Microcontroller</h1>
+    <!-- Unit 2 picture and description -->
+    <div style="width: 80vw; margin-left: 10vw;">
+        <img class="unitPic" src="u4pic.png">
+        <p class="unitDescrip">
+            In unit 4, we will learn how to create and design circuits in Tinkercad, Wokwi, and 
+            Arduino IDE. We will learn how to hook up wires to breadboards, power supplies, LED's, 
+            resistors, and buttons to each other. We were also learn about pull-up resistor and 
+            how they work in circuits. We will learn how electricity flows in both parallel and 
+            series circuits. Then we will learn about the ESP32 microcontroller and how we can 
+            implement C++ code into it to run simple programs. This unit will transition into our 
+            summative project. 
+        </p>
+    </div>
+
+    <!-- Unit work section -->
+    <h2>Unit Work</h2>
+    <!-- Links to classwork handouts -->
+    <h4><a class="workLink" href="u4Work/u4l1.pdf" target="_blank">Lesson 1 - Intro to ESP32</a></h4>
+
+    <h4><a class="workLink" href="u4Work/u4l2.pdf" target="_blank">Lesson 2 - ESP32 GPIO</a></h4>
+
+    <h4><a class="workLink" href="u4Work/u4l3.pdf" target="_blank">Lesson 3 - PWM</a></h4>
+
+    <h4><a class="workLink" href="u4Work/u4l4.pdf" target="_blank">Lesson 4 - DC Motors</a></h4>
+
+    <h4><a class="workLink" href="u4Work/u4l5.pdf" target="_blank">Lesson 5 - Servo Motors</a></h4>
+
+    <h4><a class="workLink" href="u4Work/u4l6.pdf" target="_blank">Lesson 6 - ESP32 and BLE-Dabble</a></h4>
+
+    <h4><a class="workLink" href="u4Work/u4l7.pdf" target="_blank">Lesson 7 - ESP NOW</a></h4>
+
+    <h4><a class="workLink" href="u4Work/u4l8.pdf" target="_blank">Lesson 8 - I2C and the OLED Display</a></h4>
+</html>
+
+[SUMMATIVE PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/02/2025
+My TEJ4M Summative Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../style.css" rel="stylesheet">
+    <title>Summative - Vishwa's TEJ4M</title>
+</head>
+<body>
+    <!-- Link back to navigation map (to allow for switching between pages easily) -->
+    <a href="../../navMap.html"><button class="navMapBTN">
+        <img class="navMapIcon" src="../../images/mapIcon.png">
+        &nbsp;&nbsp;&nbsp;Back to Map
+    </button></a>
+    Under Construction...
+
+</body>
+</html>
+
+[ASSIGNMENT PAGE CODE] --------------------------------------------------------------------------------------------------
+
+<!-- Vishwa Dave
+6/02/2025
+My TEJ4M Assignments Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../style.css" rel="stylesheet">
+    <title>Assignments - Vishwa's TEJ4M</title>
+</head>
+<body>
+    <!-- Link back to navigation map (to allow for switching between pages easily) -->
+    <a href="../../navMap.html"><button class="navMapBTN">
+        <img class="navMapIcon" src="../../images/mapIcon.png">
+        &nbsp;&nbsp;&nbsp;Back to Map
+    </button></a>
+
+    <!-- All the assignments for this class -->
+    <h1>Assignments</h1><br>
+
+    <!-- Assignment 1 (Partitions Assignment) -->
+    <h2>Storage Volumes, Partitions and FileSystems Assignment - 21/02/2025</h2>
+    <img class="assignmentPic" src="assignmentPics/partitioning.png">
+    <div class="assignmentDescrip">
+        <p> 
+            <b>Description: </b>This assignment involves creating and managing disk 
+            partitions on both a computer and a USB flash drive. Students will shrink 
+            their main hard drive to create unallocated space, then format it into NTFS, 
+            FAT32, and Ext4 partitions with specific labels and sizes. They will also 
+            partition a flash drive into three sections with different file systems, 
+            observe which are visible on Windows, and explain why. Finally, all flash 
+            drive partitions will be deleted and replaced with a single NTFS partition. 
+            Screenshots and explanations are required throughout to demonstrate the steps 
+            and tools used.
+        </p>
+    
+        <a class="workLink"
+        href="assignmentLinkPDFs/partitioningSlides.pdf" target="_blank">Link to Slideshow</a>
+    </div>
+
+    <!-- Assignment 2 (Motherboard Assignment) -->
+    <h2>The CPU and MB Assignment - 28/02/2025</h2>
+    <img class="assignmentPic" src="assignmentPics/cpu.png">
+    <div class="assignmentDescrip">
+        <p> 
+            <b>Description: </b>This assignment helped us understand how to research CPU’s and motherboards 
+            so that we can make an informed decision when it comes to choosing either an 
+            AMD or Intel processor. We will use this information to determine which 
+            manufacturer has the best value for a mid level and also a high end computer.
+            Additionally, this assignment helped us better understand motherboards and all 
+            their components.
+        </p>
+    
+        <a class="workLink"
+        href="https://www.canva.com/design/DAGgIwW9n3o/xovmZCDH7j1mw2Kb906UPA/edit?utm_content=DAGgIwW9n3o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" 
+        target="_blank">Link to Slideshow</a>
+    </div>
+
+    <!-- Assignment 3 (Cisco Assignment) -->
+    <h2>Cisco Packet Tracer Assignment - 28/03/2025</h2>
+    <img class="assignmentPic" src="assignmentPics/cisco.png">
+    <div class="assignmentDescrip">
+        <p> 
+            <b>Description: </b>In this assignment, students will work in groups to design, 
+            configure, and test a network using Cisco Packet Tracer. The network must consist 
+            of four LANs, each with its own switch, DHCP server, and a unique layout (top, 
+            bottom, left, right). The top LAN must also run a DNS server used by all computers 
+            across the network, and each server must host a uniquely labeled webpage. Students 
+            will demonstrate full connectivity, domain resolution, DHCP functionality, and 
+            inter-device communication, supported by screenshots and analysis. The assignment 
+            ends with a bonus wireless setup and submission of working PKT and PKZ files.
+        </p>
+    
+        <a class="workLink" href="assignmentLinkPDFs/ciscoDoc.pdf" target="_blank">Link to Document</a>
+    </div>
+
+    <!-- Assignment 4 (Programming Assignment) -->
+    <h2>Arduino C++ Programming Summative - 16/04/2025</h2>
+    <img class="assignmentPic" src="assignmentPics/programming.png">
+    <div class="assignmentDescrip">
+        <p> 
+            <b>Description: </b>For this project, we will create a computer game. It is recommended that we 
+            use an existing game as the basis for your program. We may also create our own game, but this 
+            option has the added responsibility of (a) the creative process to make a reasonable game, and 
+            (b) producing documentation for the game itself. 
+        </p>
+        
+        <a  class="workLink"
+        href="https://www.tinkercad.com/things/7gc6lhVMeqB-summative-project-computer-game-tej4m/editel?returnTo=https%3A%2F%2Fwww.tinkercad.com%2Fdashboard" 
+        target="_blank">Link to TinkerCad</a><br>
+        <a  class="workLink" href="assignmentLinkPDFs/programmingSummative.pdf" target="_blank">Link to Assignment</a>
+    </div>
+
+    <!-- Assignment 5 (Vex Assignment) -->
+    <h2>Vex Robotics Assignment - 16/04/2025</h2>
+    <img class="assignmentPic" src="assignmentPics/vex.png">
+    <div class="assignmentDescrip">
+        <p> 
+            <b>Description: </b>In this project, students will program a VEX EDR Clawbot 
+            to complete two tasks: navigate a custom obstacle course and transport an 
+            object from one location to another. An optional third challenge can be added 
+            with teacher approval. Students must create a website showcasing the robot's 
+            tasks, including a visual path map, embedded videos, and fully documented code. 
+            The project encourages creativity, modification of sensors, and thoughtful 
+            design, and is graded based on application, communication, and technical inquiry.
+        </p>
+        
+        <a  class="workLink" href="assignmentLinkPDFs/vexClawbotDoc.pdf" target="_blank">Link to Assignment</a>
+    </div>
+    
+</body>
+</html>
+
+[CSS STYLING CODE] --------------------------------------------------------------------------------------------------
 
 /* Vishwa Dave
 6/02/2025
 This is the css page responsible for the styling of my website */
 
-/* Imports -----------------------------------*/
+/* Imports ----------------------------------------------------------------------------------------------------*/
 @import url('https://fonts.cdnfonts.com/css/sf-pixelate');
+@import url('https://fonts.cdnfonts.com/css/nokia-cellphone-fc');
 
 
-/* Stylization for tags that are applicable across pages -----------------*/
+/* Stylization for tags that are applicable across pages ----------------------------------------------------------------------------------------------------*/
 /* Styling body */
 body {
     font-family: 'SF Pixelate', sans-serif;
     font-size: 2.5vh;
     font-weight: bold;
     color: #fba0a0;
+    background-color: #500a1f;
 }
 
 /* Styling links */
@@ -243,7 +625,54 @@ th {
     font-size: larger;
 }
 
-/* Stylization code for starting page specific Id's -----------------------------*/
+/* Styling for page titles */
+h1 {
+    text-align: center;
+    font-size: 7vh;
+    font-family: 'Nokia Cellphone FC', sans-serif;
+    filter: drop-shadow(0 0 0.75rem crimson);                                        
+}
+
+/* Styling for subheaders */
+h2 {
+    text-align: center;
+    font-family: 'Nokia Cellphone FC', sans-serif;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+/* Map icon button styling */
+.navMapIcon{
+    position:absolute;
+    margin-top: -1vh;
+    height: 4.5vh;
+    margin-left: 0vw;
+    transition: 0.4s;
+}
+
+.navMapBTN{
+    font-size: 3vh;
+    color: #fba0a0;
+    margin-top: 5vh;
+    display: block;
+    font-family: 'SF Pixelate', sans-serif;
+    text-transform: uppercase;
+    background-color: #330a17;
+    border: 0.2vw solid;
+    padding: 0.5em 0.5em;
+    box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+    transition: 0.4s;
+}
+
+.navMapBTN:hover {
+    background-color: #a61919;
+    filter: drop-shadow(0 0 0.75rem crimson);
+}
+
+.navMapBTN:active {
+    box-shadow: 0px 0px 0px 0px;
+}
+
+/* Stylization code for starting page specific Id's ----------------------------------------------------------------------------------------------------*/
 /* Background for starter (balcony) page */
 #start_pg {
     background-image: url(images/startScreen.PNG);
@@ -275,7 +704,7 @@ th {
     box-shadow: 0px 0px 0px 0px;
 }
 
-/* Stylization code for course info page specific Id's/etc... -----------------------------*/
+/* Stylization code for course info page specific Id's/etc... ----------------------------------------------------------------------------------------------------*/
 /* background for course description page (includes the image for the course) */
 #tej4m_pg {
     background-image: url(images/aboutCourse.PNG);
@@ -306,7 +735,7 @@ th {
     box-shadow: 0px 0px 0px 0px;
 }
 
-/* Stylization code for about me page specific Id's/etc... ---------------------------*/
+/* Stylization code for about me page specific Id's/etc... ----------------------------------------------------------------------------------------------------*/
 /* Setting background for about me page (includes avatar) */
 #aboutMe_pg {
     background-image: url(images/wantedPoster.jpg);
@@ -333,7 +762,7 @@ th {
     box-shadow: 0px 0px 0px 0px;
 }
 
-/* Stylization code for about me page specific Id's/etc... -------------------------------------*/
+/* Stylization code for about me page specific Id's/etc... ----------------------------------------------------------------------------------------------------*/
 /* setting background for city map/nav page  */
 #map_pg {
     background-image: url(images/cityMap.PNG);
@@ -343,6 +772,7 @@ th {
 /* styling the pin icons */
 .pin {
     height: 14vh;
+    position: fixed;
     transition: 0.3s;
 }
 
@@ -353,9 +783,56 @@ th {
 /* styling for the span/text/label for each pin marker */
 span {
     margin-top: -2vh;
-    width: 13vw;
+    width: 17vw;
     display: block;
     text-align: center;
     font-size: smaller;
     background: rgba(80, 10, 31, 0.7);
+}
+
+/* Stylization code for unit pages specific Id's/etc... ----------------------------------------------------------------------------------------------------*/
+/* styling unit description pics */
+.unitPic{
+    height: 30vh;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #330a17;
+    box-shadow: 4px 5px 5px black;
+    display: inline-block; 
+}
+
+/* styling unit description text */
+.unitDescrip{
+    width: 40vw;
+    display: inline-block; 
+    margin-left: 5vw;
+}
+
+/* Styling for link to each lesson work/homework for each unit */
+.workLink{
+    margin-left: 19vw;
+    transition: 0.4s;
+}
+
+.workLink:hover{
+    filter: drop-shadow(0 0 0.75rem crimson);   
+    color: white; 
+}
+
+/* Stylization code for assignment page specific Id's/etc... ----------------------------------------------------------------------------------------------------*/
+/* Styling for the assignment descriptions */
+.assignmentDescrip{
+    width:60vw;
+    margin-left: 20vw;
+    margin-bottom: 5vh;
+}
+
+.assignmentPic{
+    height:37vh;
+    display: block;
+    margin-inline: auto;
+    border-width: 10px;
+    border-style: solid;
+    border-color: #330a17;
+    box-shadow: 4px 5px 5px black;
 }
